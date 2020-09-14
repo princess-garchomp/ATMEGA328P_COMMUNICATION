@@ -1,1 +1,4 @@
 
+the CPU clock frequency in the slave must be at least 16 times higher than the SCL frequency. 
+
+. As long as the TWINT flag is set, the SCL line is held low. This allows the application software to complete its tasks before allowing the TWI transmission to continue
