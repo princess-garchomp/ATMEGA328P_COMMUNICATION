@@ -1,0 +1,8 @@
+the file SPI_make_it_work is the master application
+
+the file UART_SPI_SLAVE is the slave applicatoin
+
+I have RGBLEDS connected to each of the two arduino boards 
+the two boards are connected via the SPI peripherals (MOSI, MISO, SCK, SS of each board are connected)
+the slave is also connected to my PC via the serial port and is being monitored using terminal application putty to visulaize the data that is send ober SPI
+  the slave uses the UART to send data to putty
